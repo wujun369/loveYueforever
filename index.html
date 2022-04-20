@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 	<head>
-	<title>六年开心开心！</title>
+	<title>我滴悦悦的照片墙</title>
 	<link rel="icon" href="./img/logo_32.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="./img/logo_32.ico" type="image/x-icon">
 		<meta charset="utf-8">
@@ -133,11 +133,11 @@
 			<div class="info_my">
 				<img src="./img/cp41.jpg" height="75" width="75" />
 				<div class="info_mem">
-					<div class="nickname">最爱的肥玉啦</div>
+					<div class="nickname">最爱的吴悦小笨蛋</div>
 					<div class="vote"></div>
 				</div>
 			</div>
-			<div class="intro">2015.8-2021.5.8</div>
+			<div class="intro"></div>
 		</div>
 
 		<script>
@@ -150,147 +150,120 @@
     		// 模拟推送数据
 			var s = setInterval(function(){
 				// get animate
-				var rand_in = parseInt(Math.random() * _in.length,10);
-    			var rand_out = parseInt(Math.random() * _out.length,10);
-				if(CurPersonNum >= personArray.length){
-					CurPersonNum = 0;
-				}
-				$('.show_info').show();
-				$('.show_info').addClass(_in[rand_in]);
-				setTimeout(function(){
-					$('.show_info').removeClass(_in[rand_in]);
-					// 更改展示的图片
-					var img = document.getElementsByClassName('element')[CurPersonNum].getElementsByTagName('img')[0];
-					img.setAttribute('src','./img/cp41.jpg');
-					++CurPersonNum;
-					setTimeout(function(){
-						$('.show_info').addClass(_out[rand_out]);
-						setTimeout(function(){
-							$('.show_info').removeClass(_out[rand_out]);
-							$('.show_info').hide();
-						},1000);
-					},1500);
-				},1000);
+				// var rand_in = parseInt(Math.random() * _in.length,10);
+    			// var rand_out = parseInt(Math.random() * _out.length,10);
+				// if(CurPersonNum >= personArray.length){
+				// 	CurPersonNum = 0;
+				// }
+				// $('.show_info').show();
+				// $('.show_info').addClass(_in[rand_in]);
+				// setTimeout(function(){
+				// 	$('.show_info').removeClass(_in[rand_in]);
+				// 	// 更改展示的图片
+				// 	var img = document.getElementsByClassName('element')[CurPersonNum].getElementsByTagName('img')[0];
+				// 	img.setAttribute('src','./img/3.jpg');
+				// 	++CurPersonNum;
+				// 	setTimeout(function(){
+				// 		$('.show_info').addClass(_out[rand_out]);
+				// 		setTimeout(function(){
+				// 			$('.show_info').removeClass(_out[rand_out]);
+				// 			$('.show_info').hide();
+				// 		},1000);
+				// 	},1500);
+				// },1000);
 			},4500);
 
 			// 生成虚拟数据 i*循环的照片数=200最佳
 	        for(var i=0;i<5;i++){
 				personArray.push({
-		            image: "./img/cp02.jpg"
+		            image: "./img/1.jpg"
 		        });
 				personArray.push({
-		            image: "./img/cp03.jpg"
+		            image: "./img/2.jpg"
 		        });
 				personArray.push({
-		            image: "./img/cp04.jpg"
+		            image: "./img/3.jpg"
 		        });
 				personArray.push({
-		            image: "./img/cp05.jpg"
+		            image: "./img/4.jpg"
 		        });
 				personArray.push({
-					image: "./img/cp06.jpg"
+					image: "./img/5.jpg"
 				});
 				personArray.push({
-					image: "./img/cp07.jpg"
+					image: "./img/6.jpg"
 				});
 				personArray.push({
-					image: "./img/cp08.jpg"
+					image: "./img/7.jpg"
 				});
 				personArray.push({
-					image: "./img/cp09.jpg"
+					image: "./img/8.jpg"
 				});
 				personArray.push({
-					image: "./img/cp10.jpg"
+					image: "./img/9.jpg"
 				});
 				personArray.push({
-					image: "./img/cp11.jpg"
+					image: "./img/10.jpg"
 				});
 				personArray.push({
-					image: "./img/cp12.jpg"
+					image: "./img/11.jpg"
 				});
 				personArray.push({
-					image: "./img/cp13.jpg"
+					image: "./img/12.jpg"
 				});
 				personArray.push({
-					image: "./img/cp14.jpg"
+					image: "./img/13.jpg"
 				});
 				personArray.push({
-					image: "./img/cp15.jpg"
+					image: "./img/14.jpg"
 				});
 				personArray.push({
-					image: "./img/cp16.jpg"
+					image: "./img/15.jpg"
 				});
 				personArray.push({
-					image: "./img/cp17.jpg"
+		            image: "./img/1.jpg"
+		        });
+				personArray.push({
+		            image: "./img/2.jpg"
+		        });
+				personArray.push({
+		            image: "./img/3.jpg"
+		        });
+				personArray.push({
+		            image: "./img/4.jpg"
+		        });
+				personArray.push({
+					image: "./img/5.jpg"
 				});
 				personArray.push({
-					image: "./img/cp18.jpg"
+					image: "./img/6.jpg"
 				});
 				personArray.push({
-					image: "./img/cp19.jpg"
+					image: "./img/7.jpg"
 				});
 				personArray.push({
-					image: "./img/cp20.jpg"
+					image: "./img/8.jpg"
 				});
 				personArray.push({
-					image: "./img/cp21.jpg"
+					image: "./img/9.jpg"
 				});
 				personArray.push({
-					image: "./img/cp22.jpg"
+					image: "./img/10.jpg"
 				});
 				personArray.push({
-					image: "./img/cp23.jpg"
+					image: "./img/11.jpg"
 				});
 				personArray.push({
-					image: "./img/cp24.jpg"
+					image: "./img/12.jpg"
 				});
 				personArray.push({
-					image: "./img/cp25.jpg"
+					image: "./img/13.jpg"
 				});
 				personArray.push({
-					image: "./img/cp26.jpg"
+					image: "./img/14.jpg"
 				});
 				personArray.push({
-					image: "./img/cp27.jpg"
-				});
-				personArray.push({
-					image: "./img/cp28.jpg"
-				});
-				personArray.push({
-					image: "./img/cp29.jpg"
-				});
-				personArray.push({
-					image: "./img/cp30.jpg"
-				});
-				personArray.push({
-					image: "./img/cp31.jpg"
-				});
-				personArray.push({
-					image: "./img/cp32.jpg"
-				});
-				personArray.push({
-					image: "./img/cp33.jpg"
-				});
-				personArray.push({
-					image: "./img/cp34.jpg"
-				});
-				personArray.push({
-					image: "./img/cp35.jpg"
-				});
-				personArray.push({
-					image: "./img/cp36.jpg"
-				});
-				personArray.push({
-					image: "./img/cp37.jpg"
-				});
-				personArray.push({
-					image: "./img/cp38.jpg"
-				});
-				personArray.push({
-					image: "./img/cp39.jpg"
-				});
-				personArray.push({
-					image: "./img/cp40.jpg"
+					image: "./img/15.jpg"
 				});
 	        }
 
